@@ -55,7 +55,6 @@ class WebpayPatpass(WebpayService):
                         'cellPhoneNumber': card_holder['cellPhoneNumber'],
                         'expirationDate': expiration_date,
                         'commerceMail': commerce_email,
-                        'amount': amount,
                         'ufFlag': use_uf,
                     }
                 )
